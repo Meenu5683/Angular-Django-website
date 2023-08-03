@@ -1,0 +1,20 @@
+
+
+<div class="pt-5 pb-5 " id="a">
+</div>
+
+<div>
+  <div class="container ">
+      <div class="row" >
+        <div class="col-md-4" *ngFor="let item of book">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">{{item.title}}</h5>
+              <p class="card-text">Author: {{item.author}}</p>
+              <p class="card-text">Price: {{item.price}}</p>
+              <p class="card-text">Description: {{item.description}}</p>
+            </div>
+          </div>
+        </div>
+
+<router-outlet> </router-outlet>

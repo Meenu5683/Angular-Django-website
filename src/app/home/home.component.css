@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    width: 80%;
+    max-width: 500px;
+    background-color:#0fbd14;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+  }
+
+  .explore-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:white;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .explore-button:hover {
+    background-color:yellowgreen;
+  }
+ 
+

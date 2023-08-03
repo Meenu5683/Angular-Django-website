@@ -1,0 +1,22 @@
+
+<div class="pt-5 pb-5 " id="a">
+    <button type="button" class="btn btn-success" (click)="create()">Add new book</button>
+</div>
+
+<div>
+    <div class="container ">
+        <div class="row" >
+          <div class="col-md-4" *ngFor="let item of book">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">{{item.title}}</h5>
+                <p class="card-text">Author: {{item.author}}</p>
+                <p class="card-text">Price: {{item.price}}</p>
+                <p class="card-text">Description: {{item.description}}</p>
+                <button type="button" class="btn btn-warning btn-sm" (click)="edit(item.id)">Edit</button>
+                <button type="button" class="btn btn-danger btn-sm" (click)="delete(item.id)">Delete</button>
+              </div>
+            </div>
+          </div>
+
+  <router-outlet> </router-outlet>
